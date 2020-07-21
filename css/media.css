@@ -1,0 +1,125 @@
+/* 
+This page made by : Youssef Abdelzaher;
+This page made in : 1day;
+Mr.Youssef Abdelzaher tell you wellcome in his page
+*/
+@media (max-width: 768px){
+    p {
+        display: block;
+        margin-block-start: 0;
+        margin-block-end: 0;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+    .head .back{
+        padding: 0px;
+    }
+    .myheader .logo1{
+        position: absolute;
+        left:10px;
+        top:20px;
+        width:94.11764705882353px;
+        height: 40px;
+    }
+    .myheader .navbar-nav > li > a:hover{
+        color:#fff;
+        background-color: var(--color);
+    }
+
+    .head .tagline .lead{
+        text-align: center;
+        color: #fff;
+        text-transform: uppercase;
+        margin-top: 100px;
+        width:295px;
+        font-size:18pt;
+        margin-right: 30px;
+        float: right;
+    }
+    .head .text .lead{
+        width:200px
+    }
+    .about h1{
+        text-align: center;
+    }
+    .about h1 img:nth-child(1),.about h1 img:nth-child(3){
+        width: 51.31578947368421px;
+        height: 15px;
+    }
+    .about h1 img:nth-child(2){
+        width:268.936170212766px;
+        height:40px;
+    }
+    .head .tagline .lead{
+        color: #fff;
+        text-transform: uppercase;
+        margin-top: 100px;
+        width:100%;
+        font-size:18pt;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .head .tagline .lead span{
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        float: none;
+    }
+    .head .logo-text{
+        text-align: center;
+        padding: 0;
+    }
+    .our-food{
+        text-align: center;
+    }
+    .our-food .back h1 img{
+        width: 90%;
+    }
+
+    .gallery h1 img{
+        width: 90%;
+    }
+    .book h1 img{
+        width: 90%;
+    }
+    .contact-us{
+        background-image: url(../photos/contact-us/back.png);
+        background-size: cover;
+    }
+    .footer .row div{
+        font-size: 17pt;
+        margin-bottom: 30px;
+    }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991px){
+
+    .myheader .logo2{
+        width:94.11764705882353px;
+        height: 40px;
+    }
+
+    .myheader .navbar-nav > li > a{
+        color: #fff;
+        font-size: 10pt;
+        text-transform: uppercase;
+    }
+    .head .text .lead{
+        width:300px
+    }
+
+    .our-food .back h1{
+        padding: 0 20px;
+    }
+    .our-food{
+        text-align: center;
+    }
+    .contact-us{
+        background-image: url(../photos/contact-us/back.png);
+        background-size: cover;
+    }
+
+}

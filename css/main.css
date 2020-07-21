@@ -1,0 +1,357 @@
+/* 
+This page made by : Youssef Abdelzaher;
+This page made in : 1day;
+Mr.Youssef Abdelzaher tell you wellcome in his page
+*/
+:root{
+    --color:#FFC901;
+    --overlay:#ffc800f1;
+}
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000;
+    font-family: body;
+}
+@font-face{
+    font-family: body;
+    src: url(../fonts/Acme-Regular.ttf);
+}
+#ascrail2000{
+    z-index: 9999999 !important;
+}
+/* Start head Section */
+
+.head{
+    background-image: url(../photos/Our-food/Image.svg);
+    background-size: cover ;
+    border-bottom:2px solid #aaa;
+    width: 100%;
+}
+.head .back{
+    width: 100%;
+    height: 100%;
+    padding: 50px 0;
+    background-image: url(../photos/back-head.png);
+    background-size: cover ;
+    background-position: center ;
+
+}
+.head .myheader{
+    background-color: #524f4f;
+    border: none;
+    padding: 20px 0;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top:0;
+    width: 100%;
+    border-radius:0%;
+    -webkit-transition: all .7s ease-in-out;
+    -moz-transition: all .7s ease-in-out;
+    -o-transition: all .7s ease-in-out;
+    transition: all .7s ease-in-out;
+}
+.head .myheader:hover{
+    opacity: 1 !important;
+}
+.myheader .navbar-nav > li > a{
+    color: #fff;
+    font-size: 16pt;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+.myheader .navbar-nav > li > a:hover{
+    color:var(--color);
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus{
+    border-color: var(--color);
+    background-color: var(--color);
+    color: #fff;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+    border-color: var(--color);
+}
+
+.head .tagline .lead{
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 100px 0px;
+    width:295px;
+    font-size:18pt
+}
+.head .tagline .lead span{
+    font-size: 15pt;
+    color: var(--color);
+    float: right;
+    margin-top: 20px;
+}
+.head .logo-text{
+    direction: rtl;
+    margin-top: 30px;
+    padding-right: 30px;
+}
+.head .text{
+    margin-top: 30px;
+    direction: rtl;
+    text-transform: uppercase;
+}
+.head .text .lead{
+    padding: 20px 0;
+    background-image: linear-gradient(90deg ,rgba(0, 0, 0, 0.014) ,rgba(255, 255, 255, 0.226));
+    width: 400px;
+    color: #fff;
+    padding-right: 30px;
+    font-weight: bold;
+}
+.head .text .lead span{
+    color: var(--color);
+}
+/* End head Section */
+
+/* Start about section  */
+
+.about{
+    width: 100%;
+    padding: 50px 0px;
+    background-image: url(../photos/About/back-about.png);
+    background-size: cover;
+    background-position: center;
+}
+.about p{
+
+    color: #fff;
+    margin-top: 50px;
+    font-size:18pt;
+    line-height: 2;
+}
+.about h2{
+
+    color: #fff;
+    margin-top: 80px;
+}
+.about h2 span{
+    color: var(--color);
+}
+/* End about section  */
+/* Start Our-food section */
+.our-food{
+    width: 100%;
+    background-image: url(../photos/Our-food/Image.svg);
+    background-size: cover;
+    background-origin: border-box;
+    border: none;
+    margin: 0;
+}
+.our-food .back{
+    width: 100%;
+    height:100%;
+    background-image: url(../photos/Our-food/Design.png);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-size: 50% 100%;
+    padding: 100px 0;
+}
+.our-food .back h1 img{
+    width:500px;
+}
+.our-food .back p{
+    margin-top: 50px;
+    font-size: 16pt;
+    color: #ccc;
+}
+.our-food .back h2{
+    margin-top: 40px;
+    color: #fff;
+}
+.our-food .back h2 sp1{
+    font-size: 18pt;
+}
+.our-food .back h2 sp2{
+    color: var(--color);
+    font-size: 12pt;
+    margin-top: 10px;
+}
+/* End Our-food section */
+
+/* Start gallery section */
+
+.gallery{
+    padding: 50px 0px;
+    background-color: #000;
+}
+.gallery img:nth-child(2){
+    margin: 30px 0;
+    width: 90%;
+}
+
+/* End gallery section */
+
+/* Start Book section */
+
+.book{
+    background-color: #222224;
+    padding: 50px 0;
+}
+.book p{
+    margin: 20px 0px 50px 0px;
+    color: #fff;
+}
+.book label{
+    color: #fff;
+    font-size: 16pt;
+}
+.book input{
+    margin-bottom: 50px;
+    width: 100%;
+    background-color: #000;
+    border-color: var(--color);
+}
+.book input:focus{
+    border-color: var(--color);
+    box-shadow:1px 1px 10px var(--color);
+}
+.book input:focus::placeholder{
+    color: var(--color);
+}
+.book input:focus{
+    color: var(--color);
+}
+.book input::placeholder{
+    color: #ddd;
+}
+.book select{
+    margin-bottom: 50px;
+    width: 100%;
+    background-color: #000;
+    border-color: var(--color);
+    color:#ddd
+}
+.book select:focus{
+    border-color: var(--color) !important;
+    box-shadow:1px 1px 10px var(--color) !important;
+}
+.book select:hover,.book select:focus{
+    border-color: var(--color);
+    box-shadow: var(--color);
+}
+option{
+    color: var(--color);
+}
+.book button{
+    padding: 5px 100px;
+    font-size: 15pt;
+    font-weight: bold;
+    background-color: var(--color);
+    border-color: var(--color);
+    border-radius: 10px;
+    outline: none;
+}
+.book button:hover{
+    background-color: var(--overlay);
+    color: #fff;
+}
+/* End Book section */
+
+/* Start Photo Section */
+
+.photo{
+    width: 100%;
+    height: 1007px;
+    background-image: url(../photos/photo.png);
+    background-size: cover;
+    background-position: center;
+}
+
+/* End Photo Section */
+
+/* Start Text Section */
+
+.text-box{
+    width: 100%;
+    padding: 50px 0px;
+    background-color: #141414;
+    position: relative;
+    overflow: hidden;
+}
+.text-box .back{
+    height: 159%;
+    width: 61%;
+    position: absolute;
+    top: -189px;
+    right: -245px;
+    z-index: 100;
+    opacity: .7;
+}
+.text-box h1{
+    margin-bottom: 30px;
+}
+.text-box p{
+    color: #fff;
+    position: relative;
+    z-index: 101;
+
+}
+.text-box span{
+    color: var(--color);
+    font-size: 16pt;
+    margin-top: 30px;
+}
+/* End Text Section */
+
+/* Start Contact us Section */
+
+.contact-us{
+    padding: 60px 0;
+    background-color: #1C1B1B;
+    border-bottom: var(--color) 2px dashed;
+}
+.contact-us h2{
+    color: var(--color);
+    margin-bottom: 30px;
+}
+.contact-us p{
+    color: #fff;
+}
+.contact-us span{
+    color: var(--color);
+    font-size: 15pt;
+    font-weight: bold;
+}
+.contact-us .back{
+    width: 90%;
+}
+
+/* End Contact us Section */
+
+/* Start Footer Section  */
+
+.footer{
+    padding: 50px 0;
+    background-color: #1C1B1B;
+}
+.footer h1{
+    margin-bottom: 50px;
+}
+.footer .row{
+    margin-bottom: 50px;
+}
+.footer a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15pt;
+}
+.footer a:hover{
+    color: var(--color);
+}
+.footer .icons span{
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+/* End Footer Section  */
